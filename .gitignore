@@ -1,0 +1,78 @@
+# DEPENDENCIAS
+node_modules/
+**/node_modules/
+
+# BUILDS / DIST
+dist/
+build/
+**/dist/
+**/build/
+.out/
+.next/
+
+# VARIABLES DE ENTORNO
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# LOGS
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# CACHE / TEMP
+.cache/
+.parcel-cache/
+.eslintcache
+.tmp/
+temp/
+**/.vite/
+client/.vite/
+
+# TESTING / COVERAGE
+
+coverage/
+.nyc_output/
+
+# BASE DE DATOS / BACKUPS
+*.sql
+*.dump
+*.backup
+*.bak
+
+# UPLOADS LOCALES
+uploads/
+public/uploads/
+server/uploads/
+
+# AWS / KEYS / CERTS
+*.pem
+*.key
+.aws/
+
+# SISTEMA OPERATIVO
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# EDITORES / IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+
+# DEPLOY / HOSTING
+.render/
+.vercel/
+.netlify/
+
+# MISC
+*.swp
+*.lock
