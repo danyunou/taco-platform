@@ -175,7 +175,7 @@ export default function TableOrderPage() {
                         disabled={currentOrder.length === 0 || isSending}
                         onClick={handleSendOrder}
                     >
-                        {isSending ? 'ENVIANDO...' : 'ENVIAR A COCINA 👨‍🍳'}
+                        {isSending ? 'ENVIANDO...' : 'ENVIAR A COCINA'}
                     </button>
                 </div>
             </div>
